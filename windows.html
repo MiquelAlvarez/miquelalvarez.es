@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+    <head>
+        <title>windows</title>
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/jquery.windows.js"></script>
+        <link rel="stylesheet" href="css/window.css">
+        <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!-- NOTE: each "window" is a section element with class .window -->
+
+    <section id="PM" class="window" data-animate-down="ha-header-show" data-animate-up="ha-header-hide">
+        <!-- <div class="container-fluid"> -->
+            <!-- <div class="row"> -->
+                <div class="PM_content">
+                    <h2><i class="fa fa-commenting"></i><br>Product Manager</h2>
+                    <p>As part of the <span>founding team</span> of a startup in the Big Data analysis and technology field I have been the Product Manager for <span>over the last 3 years</span>. Responsible of the <span>definition, planning and execution of the ideas and vision of company's product line</span> I've managed to combine my <span>knowledge of Business, Commercial and Engineering</span> sides of the company in order to keep a clear vision of how to lead product and services development.</p>
+                    <p> Thanks to a wide background of knowledge I manage to <span>design and define user's experience</span> based on their needs through the <span>creation of mock-ups</span> as well as <span>building prototipes</span> and integrating data sources and <span>code all the way through the final commercial product</span>.
+                    </p>
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
+    </section>
+    <!-- <div class="clearfix"></div> -->
+    <section id="visual_designer" class="window">
+        <!-- <div class="container-fluid"> -->
+            <!-- <div class="row"> -->
+                <!-- <div class="col-lg-12 text-center VD_content"> -->
+                    <h2>
+                        <i class="fa fa-magic"></i><br>
+                        Visual Designer</h2>
+                    <p>As part of the <span>founding team</span> of a startup in the Big Data analysis and technology field I have been the Product Manager for <span>over the last 3 years</span>. Responsible of the <span>definition, planning and execution of the ideas and vision of company's product line</span> I've managed to combine my <span>knowledge of Business, Commercial and Engineering</span> sides of the company in order to keep a clear vision of how to lead product and services development.</p>
+<!--                 </div>
+            </div>
+        </div>
+ -->    </section>
+    <!-- <div class="clearfix"></div> -->
+    <section id="UX" class=" window">
+<!--         <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center UX_content">
+ -->                    <h2 class="">
+                        <i class="fa fa-users"></i><br>
+                        UX design and research</h2>
+                    <p>As part of the <span>founding team</span> of a startup in the Big Data analysis and technology field I have been the Product Manager for <span>over the last 3 years</span>. Responsible of the <span>definition, planning and execution of the ideas and vision of company's product line</span> I've managed to combine my <span>knowledge of Business, Commercial and Engineering</span> sides of the company in order to keep a clear vision of how to lead product and services development.</p>
+<!--                 </div>
+            </div>
+        </div>
+ -->    </section>
+    <!-- <div class="clearfix"></div> -->
+    <section id="frontend" class="window">
+<!--         <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center FE_content">
+ -->                    <h2 class="">
+                        <i class="fa fa-terminal"></i><br>
+                        Frontend developer</h2>
+                    <p>As part of the <span>founding team</span> of a startup in the Big Data analysis and technology field I have been the Product Manager for <span>over the last 3 years</span>. Responsible of the <span>definition, planning and execution of the ideas and vision of company's product line</span> I've managed to combine my <span>knowledge of Business, Commercial and Engineering</span> sides of the company in order to keep a clear vision of how to lead product and services development.</p>
+<!--                 </div>
+            </div>
+        </div>
+ -->    </section>
+    <section id="about" class="window">
+<!--         <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center About_content">
+ -->                    <h2 class="">
+                        <i class="fa fa-cube"></i><br>
+                        ABOUT ME</h2>
+                    <p>As part of the <span>founding team</span> of a startup in the Big Data analysis and technology field I have been the Product Manager for <span>over the last 3 years</span>. Responsible of the <span>definition, planning and execution of the ideas and vision of company's product line</span> I've managed to combine my <span>knowledge of Business, Commercial and Engineering</span> sides of the company in order to keep a clear vision of how to lead product and services development.</p>
+<!--                 </div>
+            </div>
+        </div>
+ -->    </section>
+
+        <script>
+
+            $(document).ready(function(){
+
+                var $windows = $('.window');
+
+                $windows.windows({
+                    snapping: true,
+                    snapSpeed: 500,
+                    snapInterval: 1100,
+                    onScroll: function(s){},
+                    onSnapComplete: function($el){},
+                    onWindowEnter: function($el){}
+                });
+
+            });
+        </script>
+
+    </body>
+</html>
