@@ -364,6 +364,9 @@ section span {
     .ha-header h1 {
         display: none;
     }
+    #intro_space {
+        width: 90vw;
+    }
     #intro_space h1{
         font-size: 1.5em;
         line-height: 1.6em;
@@ -499,7 +502,7 @@ section h2 i {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-color: #00303e
+    /*background-color: #00303e*/
 }
 
 .menu_name {
