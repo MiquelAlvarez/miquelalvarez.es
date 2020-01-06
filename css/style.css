@@ -364,6 +364,11 @@ section span {
     .ha-header h1 {
         display: none;
     }
+    #intro_space h1{
+        font-size: 1.5em;
+        line-height: 1.6em;
+        width: 80vw;
+    }
     nav {
         text-align: center !important;
         display: flex !important;
