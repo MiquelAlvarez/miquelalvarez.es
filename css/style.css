@@ -1,0 +1,514 @@
+*, ::after, ::before {
+    box-sizing: border-box
+}
+
+ol[class], ul[class] {
+    padding: 0
+}
+
+blockquote, body, dd, dl, figcaption, figure, h1, h2, h3, h4, li, ol[class], p, ul[class] {
+    margin: 0
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    color: #333;
+}
+
+ol[class], ul[class] {
+    list-style: none
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto
+}
+
+img {
+    max-width: 100%;
+    display: block
+}
+
+article > * + * {
+    margin-top: 1em
+}
+
+button, input, select, textarea {
+    font: inherit
+}
+
+/*@media (prefers-reduced-motion: reduce) {*/
+/*    * {*/
+/*        animation-duration: 0s !important;*/
+/*        animation-iteration-count: 1 !important;*/
+/*        transition-duration: 0s !important;*/
+/*        scroll-behavior: auto !important*/
+/*    }*/
+/*}*/
+
+.nowrap {
+    white-space: nowrap;
+}
+
+@font-face {
+    font-family: Fira;
+    src: url(../fonts/FiraCode-VF.woff2) format('woff2-variations'), url(../fonts/FiraCode-VF.woff) format('woff-variations');
+    font-weight: 300 700;
+    font-style: normal
+}
+
+/*@font-face {*/
+/*    font-family: Fira;*/
+/*    src: url(../fonts/ProximaNova-Bold.eot);*/
+/*    src: url(../fonts/ProximaNova-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/ProximaNova-Bold.woff) format('woff'), url(../fonts/ProximaNova-Bold.ttf) format('truetype');*/
+/*    font-weight: 700;*/
+/*    font-style: normal*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: Fira;*/
+/*    src: url(../fonts/ProximaNova-Light.eot);*/
+/*    src: url(../fonts/ProximaNova-Light.eot?#iefix) format('embedded-opentype'), url(../fonts/ProximaNova-Light.woff) format('woff'), url(../fonts/ProximaNova-Light.ttf) format('truetype');*/
+/*    font-weight: 300;*/
+/*    font-style: normal*/
+/*}*/
+
+body {
+    font-family: Fira, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.cover {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden
+}
+
+#intro_space {
+    width: 55vw;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 1em
+}
+
+#intro_space h1 {
+    font-family: Fira;
+    font-size: 4vh;
+    line-height: 5.5vh;
+    color: #333;
+    text-align: left
+}
+
+#intro_space .portfolio {
+    font-size: .6em
+}
+
+h1 {
+    text-align: left;
+    color: #222;
+    font-weight: 400
+}
+
+/*@media screen and (max-height: 800px) {*/
+/*    section {*/
+/*        padding-top: 25px !important;*/
+/*        padding-bottom: 25px !important*/
+/*    }*/
+
+/*    section p {*/
+/*        padding-top: 0 !important;*/
+/*        padding-right: 0 !important*/
+/*    }*/
+/*}*/
+
+.linebreaking {
+    display: none
+}
+
+.title_link a {
+    color: #d26565;
+    font-weight: 500;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    transition: color .3s;
+    opacity: 1;
+    cursor: arrow;
+    white-space: nowrap;
+}
+
+.ha-header h1 {
+    font-weight: 800;
+    text-transform: uppercase
+}
+
+.ha-header nav a, nav a {
+    text-decoration: none
+}
+
+section::after, section::before {
+    position: absolute;
+    content: '';
+    pointer-events: none
+}
+
+.hear, .read, .see {
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out
+}
+
+h2 {
+    font-family: Fira, sans-serif;
+    /*text-transform: uppercase;*/
+    /*font-size: 2em*/
+}
+
+.ha-header {
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    z-index: 50;
+    /*-webkit-transform: translate( 0);*/
+    /*-moz-transform: translate( 0);*/
+    /*transform: translate(0);*/
+    /*-webkit-transition: all .5s;*/
+    /*-moz-transition: all .5s;*/
+    transition: all .5s;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/*.ha-header-front {*/
+/*    z-index: 2;*/
+/*    -webkit-transform: translate(50%, 100%);*/
+/*    -moz-transform: translate(50%, 100%);*/
+/*    transform: translate(50%, 100%);*/
+
+/*}*/
+
+.ha-header-hide {
+    -webkit-transform: translate(0, -101%);
+    -moz-transform: translate(0, -101%);
+    transform: translate(0, -101%);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+
+.ha-header h1, .ha-header h1 span, .ha-header h1::before, .ha-header nav, .ha-header nav::before {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left
+}
+
+.ha-header h1 {
+    font-size: .8em;
+    margin: 0;
+    padding: 2px 1em 0 0;
+    color: #2d383f;
+    cursor: default;
+    height: 100%;
+    z-index: 1;
+    line-height: 1.2em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s
+}
+
+section span {
+    font-family: Fira, sans-serif;
+    font-weight: 700;
+}
+
+.UX_des, .frontend_dev, .name, .prod_man {
+    display: inline-block
+}
+
+.ha-header h1::before, .ha-header nav::before {
+    content: '';
+    height: 100%
+}
+
+.ha-header h1::after {
+    content: '';
+    width: 100px;
+    height: 96px;
+    background: #fff;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    box-shadow: inset 0 8px #2d383f, inset 0 16px #fff, inset 0 24px #2d383f, inset 0 32px #fff, inset 0 40px #2d383f, inset 0 48px #fff, inset 0 56px #2d383f;
+    opacity: 0;
+    border: 20px solid #fff;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    transition: opacity .5s
+}
+
+.ha-header nav {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ha-header nav a {
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: .2em .4em;
+    margin: 0 .4em;
+    font-size: .6em;
+    cursor: pointer;
+    color: #e74c3c;
+    outline: 0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ha-header nav a:last-child {
+    margin-right: 0
+}
+
+.section_selected {
+    border: 2px solid #e74c3c;
+    -webkit-transition: top .5s, opacity 0s .5s;
+    -moz-transition: top .5s, opacity 0s .5s;
+    transition: top .5s, opacity 0s .5s
+}
+
+nav a, section {
+    position: relative
+}
+
+section {
+    display: flex;
+    padding-top: 2em;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+section h2 {
+    width: 30vw;
+    font-family: Fira;
+    align-self: flex-end;
+    font-size: 4vh;
+    font-weight: 500;
+    padding: 1vh 1vw;
+}
+
+section .content {
+    width: 65vw;
+    margin-left: 5vw;
+    padding: 2%;
+    font-size: 2.6vh;
+}
+
+.technologies {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+}
+
+section span {
+    opacity: 1;
+    display: visible;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+}
+
+
+@media screen and (max-height: 450px) {
+    section h2 {
+        font-size: 2em;
+    }
+
+    section .content {
+        font-size: 0.8em;
+    }
+
+    #intro_space h1{
+        font-size: 2em;
+        line-height: 1.3em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ha-header h1 {
+        display: none;
+    }
+    nav {
+        text-align: center !important;
+        display: flex !important;
+        padding: 10px;
+    }
+    section {
+        flex-direction: column;
+    }
+
+    section h2 {
+        width: 90vw;
+        padding: 0 2%;
+        align-self: unset;
+    }
+
+    section .content {
+        width: 90vw;
+        margin-left: 0;
+        padding: 0 2%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-height: 600px) {
+    section h2 {
+        font-size: 2em;
+    }
+
+    section .content {
+        font-size: 0.9em;
+        line-height: 1.6em;
+    }
+}
+
+.high, .highdark {
+    /*font-size: .7em;*/
+    border: 2px solid;
+    padding: 3px 5px;
+    line-height: 1.5em;
+    display: inline-block;
+    margin-bottom: 3px;
+    font-weight: 300;
+    margin-right: -5px;
+}
+
+.high {
+    color: #fff
+}
+
+.highdark {
+    color: #333
+}
+
+
+section p {
+    padding-top: 25px;
+    padding-right: 25px;
+    font-family: Fira;
+}
+
+section p:last-child {
+    padding-right: 0
+}
+
+section h2 i {
+    padding-bottom: 10px
+}
+
+#PM {
+    background-color: #FF9F1C;
+    /*color: rgba(255, 255, 255, 1)*/
+}
+
+/*#visual_designer h2, #visual_designer p {*/
+/*    color: #fff !important*/
+/*}*/
+
+#visual_designer {
+    background-color: #E71D36;
+    color: #fff
+}
+
+#UI, #UX {
+    background-color: #2EC4B6;
+}
+
+#frontend {
+    background-color: #011627;
+    color: white;
+}
+
+#about {
+    background-color: #fcfffd
+}
+
+#about #personal_links a {
+    text-decoration: none;
+}
+
+/*nav a {*/
+/*    display: flex;*/
+/*    color: #fff;*/
+/*    text-transform: uppercase;*/
+/*    letter-spacing: 1px;*/
+/*    font-weight: 400;*/
+/*    text-shadow: 0 0 1px rgba(255, 255, 255, .3);*/
+/*    font-size: .6em;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.about, .portfolio, .services {
+    padding: 50px 0
+}
+
+.header {
+    display: table;
+    width: 100%
+}
+
+.header {
+    position: relative;
+    height: 100%;
+    left: 50vw;
+    background: url(../img/miguel-min.png) 0 50% no-repeat, url(../img/ny01-min.png) 0px 0% no-repeat;
+    background-blend-mode: screen;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-color: #00303e
+}
+
+.menu_name {
+    color: #000
+}
+
+.hear, .read, .see {
+    opacity: 1;
+    transition: .25s ease-in-out
+}
+
+.faded {
+    opacity: .2;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out
+}

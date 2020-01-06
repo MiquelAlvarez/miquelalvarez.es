@@ -10,7 +10,7 @@ var cachedUrls = [
     'https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js',
     'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js',
   // Local assets
-    'css/stylish-portfolio.css',
+    'css/style.css',
     'css/window.css',
     'font-awesome/css/font-awesome.min.css',
     'font-awesome/css/font-awesome.min.css',
