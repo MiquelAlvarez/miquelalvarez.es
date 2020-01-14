@@ -196,17 +196,18 @@
                         class="fa fa-file-pdf"></i> DOWNLOAD MY CV</a></b>
                 <br>
                 <br>
-                <span style="text-transform:uppercase;"><span class="read">READ</span>/<span class="see">SEE</span>/<span class="hear">HEAR</span> MORE FROM ME...</span>
+                <span style="text-transform:uppercase;"><span class="see">SEE</span>/<span class="hear">HEAR</span> MORE FROM ME...</span>
                 <br>
-                <b class="highdark readlink">
-                    <a href="http://twitter.com/miquelalvarez"
-                       target="_blank"
-                       rel="noreferrer"
-                       style="color:#55acee">
-                        <i class="fab fa-twitter"></i>
-                        TWITTER
-                    </a>
-                </b>
+<!--               <span class="read">READ</span>/-->
+<!--                <b class="highdark readlink">-->
+<!--                    <a href="http://twitter.com/miquelalvarez"-->
+<!--                       target="_blank"-->
+<!--                       rel="noreferrer"-->
+<!--                       style="color:#55acee">-->
+<!--                        <i class="fab fa-twitter"></i>-->
+<!--                        TWITTER-->
+<!--                    </a>-->
+<!--                </b>-->
                 <b class="highdark hearlink">
                     <a href="http://https://open.spotify.com/artist/5a1lqCbdCuEXAPUoQjdH9C"
                        target="_blank"
@@ -332,29 +333,29 @@
         section_about.classList.add('section_selected')
       });
 
-  var read = document.querySelector(".read");
+  // var read = document.querySelector(".read");
   var see = document.querySelector(".see");
   var hear = document.querySelector(".hear");
 
-  document.querySelector(".readlink").addEventListener("mouseenter", (e) => {
-    read.classList.remove("faded");
-    see.classList.add("faded");
-    hear.classList.add("faded");
-  });
+  // document.querySelector(".readlink").addEventListener("mouseenter", (e) => {
+  //   read.classList.remove("faded");
+  //   see.classList.add("faded");
+  //   hear.classList.add("faded");
+  // });
 
   document.querySelector(".seelink").addEventListener("mouseenter", (e) => {
     hear.classList.remove("faded");
-    read.classList.add("faded");
+    // read.classList.add("faded");
     see.classList.remove("faded");
   });
   document.querySelector(".hearlink").addEventListener("mouseenter", (e) => {
     hear.classList.remove("faded");
-    read.classList.add("faded");
+    // read.classList.add("faded");
     see.classList.add("faded");
   });
   document.querySelector("#personal_links").addEventListener("mouseenter", (e) => {
     hear.classList.remove("faded");
-    read.classList.remove("faded");
+    // read.classList.remove("faded");
     see.classList.remove("faded");
   })
 </script>
