@@ -1,65 +1,365 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.4.0/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.4.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.4.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.4.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.4.0/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75132963-1"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
+      gtag('config', 'UA-75132963-1');
     </script>
-  </body>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Product Manager, Visual Designer and Frontend Developer in Barcelona">
+    <meta name="author" content="Miquel Alvarez">
+    <meta name="description" content="Hi! I’m Miquel Alvarez. I'm a visual designer and researcher, and I spend my time working and growing as a Product Manager , UX designer and as a frontend developer." />
+    <meta name="keywords" content="visual design, product manager, ui, frontend, barcelona, miquel, miguel, alvarez" />
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 day">
+    <meta property="og:image" content="http://miquelalvarez.es/img/miquelalvarez.png" />
+    <meta property="og:url" content="http://miquelalvarez.es" />
+    <meta property="og:title" content="Miquel Àlvarez | Visual Designer | Product Manager | UI Designer | Frontend Developer" />
+    <meta property="og:description" content="Hi! I’m Miquel Alvarez. I'm a visual designer and researcher, and I spend my time working and growing as a Product Manager , UI designer and as a frontend developer." />
+    <title>Miquel Àlvarez | Visual Designer | Product Manager | UI Designer | Frontend Developer</title>
+    <!-- visual design, ux, product manager -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/inview.js"></script>
+    <link href="css/fontawesome.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="ha-header" class="ha-header ha-header-hide">
+<!--    <div class="ha-header-front">-->
+    <h1><span><a href="#top" class="menu_name">Miquel Álvarez</a></span></h1>
+    <nav>
+        <a class="section_visual" href="#visual_designer">VISUAL DESIGNER</a>
+        <a class="section_PM" href="#PM">PRODUCT MANAGER</a>
+        <br class="linebreaking"><a class="section_UX" href="#UI">UI</a>
+        <a class="section_dev" href="#frontend">FRONTEND DEV</a>
+        <a class="section_about" href="#about">ABOUT ME</a>
+        <a class="section_portfolio" href="https://portfolio.miquelalvarez.es/" target="_blank">PORTFOLIO</a>
+    </nav>
+<!--    </div>-->
+</div>
+<div class="cover">
+    <div id="intro_space">
+        <h1>Hi! I’m <span class="title_link name headerlink nowrap"><a href="#about">Miquel Alvarez</a>.</span><br /><br /> I'm a <span
+                class="title_link viz_des headerlink nowrap"><a
+                href="#visual_designer">Visual Designer</a></span>,
+            and I spend my time working and growing as a <span class="nowrap"><span class="title_link prod_man headerlink"><a href="#PM">Product Manager</a></span>,</span> <span class="title_link UX_des headerlink nowrap"><a href="#UI">UI Designer </a></span><span class="nowrap"> and as a </span> <span class="nowrap"><span
+                    class="title_link frontend_dev headerlink"><a href="#frontend">Frontend Developer</a></span>.</span></h1>
+        <br /><h1><span class="nowrap" style="font-size:0.6em">View </span><a class="portfolio" href="https://portfolio.miquelalvarez.es" target="_blank"
+                                                         style="text-decoration:underline">my portfolio</a></h1>
+    </div>
+    <header id="top" class="header ha-waypoint container-fluid">
+    </header>
+</div>
+<!-- About -->
+<section id="visual_designer">
+    <h2 class="title visual_designer_title">
+<!--        <i class="fa fa-magic"></i><br>-->
+        Visual Designer
+    </h2>
+    <div class="content">
+        <p>I am a passionate <span>creative problem solver</span> through design who enjoys experimenting with visual elements, managing to create and learn by using any kind of support. My main focus is <span>digital creation based on typography and the visual space</span>, but also <span>incorporating photo, video</span> as well as <span>audio and music</span>.
+            <br>
+            <br> Work-wise I've applied my knowledge to the creation of <span>corporate identity</span>, designing
+            <span>brochures and leaflets</span> as well as <span>posters and banners, websites, business cards and corporate identity</span>, amongst others.
+            <br>
+            <br> MY MAIN TOOLS
+            <br>
+            <b class="high section">ADOBE CREATIVE SUITE</b>
+            <b class="high">PHOTOSHOP</b>
+            <b class="high">ILLUSTRATOR</b>
+            <b class="high">AFTER EFFECTS</b>
+            <b class="high">SKETCH</b>
+            <b class="high">LIGHTROOM</b>
+            <b class="high">LOGIC PRO</b>
+            <br>
+            <br> MY MAIN STRENGTHS
+            <br>
+            <b class="high section">VISUAL COMPOSITION</b>
+            <b class="high">TYPOGRAPHY</b>
+
+        </p>
+        </p>
+    </div>
+</section>
+<section id="PM">
+    <h2 class="title pm_title">
+<!--        <i class="fa fa-commenting"></i><br>-->
+        Product Manager
+    </h2>
+    <div class="content">
+        <p>Due to my experience not only as a Product Manager but also on the technical side of projects as a developer I've managed to <span>ensure features and functionalities were always backed with user data</span>, while making sure that <span>a proper backlog that also developers could be comfortable with was maintained.</span></p>
+
+        <p>When in charge of Product Development i've <span>led and defined the strategic vision and the product roadmap</span> for <span>not only commercial products but also services and tools</span>. I worked on identifying who could potentially benefit from this and defined a plan on how to pivot and target them as the specific user while designing tailored solutions.</p>
+
+        <p>Before that, as one of the founders of a startup in the <span>Big Data analysis and technology field</span> I was responsible for the <span>definition and planning of the company's product line</span>. First by <span>identifying the market's needs</span>, and later <span>working with customers to understand and prioritise features and improvements</span> once the product was available in the market. </p>
+
+        <p>Thanks to a <span>wide background of knowledge</span> I manage to do <span>feature ideation</span> and <span>design and definition of user's experience</span> based on their needs through the whole process from <span>creating the original mock-ups to building prototypes and integrating data sources, to coding all the way through the final commercial product.</span></p>
+
+
+        <br>
+            <br>
+            <p class="technologies">Technologies & methodologies I use and know</p>
+
+            <b class="highdark">AGILE</b>
+            <b class="highdark">LEAN STARTUP</b>
+            <b class="highdark">PRODUCT ANALYTICS</b>
+            <b class="highdark">INCEPTION</b>
+            <b class="highdark">PRODUCT DISCOVERY</b>
+
+        </p>
+    </div>
+</section>
+<section id="UI">
+    <h2 class="title ui_title">
+<!--        <i class="fa fa-users"></i><br>-->
+        UI design
+    </h2>
+    <div class="content">
+        <p><span>Identifying needs</span> and <span>creating designs and experiences</span> that solve them is one of my main goals by adding design to the equation. Combining my <span>duties and knowledge as a product manager</span> with <span>my experience on the visual aspects</span> I managed to dedicate a big part of my time to learn about how to come up with great and useful solutions that web apps can solve by putting the user in the middle of the equation. Being self-taught in this matter allows me to evolve and learn as I grow as a professional.
+            <br>
+            <br>
+            <p class="technologies">What do I do and take care of</p>
+
+            <b class="highdark">WIREFRAMING & PROTOTYPING</b>
+            <b class="highdark">USER CENTRED DESIGN</b>
+            <b class="highdark">PRODUCT ANALYTICS</b>
+            <b class="highdark">USER FLOW</b>
+            <b class="highdark">METRICS</b>
+            <b class="highdark">A/B TESTING</b>
+            <b class="highdark">STORY TELLING</b>
+            <b class="highdark">INTERACTION DESIGN</b>
+            <b class="highdark">USER INTERFACE DESIGN</b>
+            <b class="highdark">INFORMATION ARCHITECTURE</b>
+            <b class="highdark">USABILITY PRINCIPLES</b>
+        </p>
+    </div>
+</section>
+<section id="frontend">
+    <h2 class="title frontend_title">
+<!--        <i class="fa fa-terminal"></i><br>-->
+        Frontend developer
+    </h2>
+    <div class="content">
+        <p>My work and experience as a designer does not end with the design itself.
+            <span>After wireframing</span> (when talking about apps and webs) or
+            <span>delivering the designs</span> I can go the next step <span>by coding features and products that can go into production</span> after my work is done.</p>
+
+        <p>I've also worked full-time as a frontend developer while in charge of features that were already live for hundreds of thousands of users, which meant ensuring the path to production was clear and based on testing to ensure functionality was never disrupted. I've also worked hand to hand with <span>developer teams</span> where <span>peer reviewing</span> was part of the daily processes as well as <span>integrating with the team's agile metodologies</span> in order to create <span>iterative deployments</span>.
+
+            <p>When working on websites my goal is to make sure the client can make the most out of my knowledge and experience while <span>understanding the value they can get from new patterns, trends and technologies available to explore</span>, while for <span>apps and web services</span> I can focus <span>more complex, robust and stable solutions</span> that ensure the final user's experience.
+            <br>
+            <br>
+            <p class="technologies">My abilities as a developer</p>
+            <b class="high">REACT</b>
+            <b class="high">CSS3</b>
+            <b class="high">ANGULARJS</b>
+            <b class="high">NODEJS</b>
+            <b class="high">JAVASCRIPT</b>
+            <b class="high">HTML5</b>
+            <b class="high">WORDPRESS</b>
+            <b class="high">D3.js</b>
+            <b class="high">AWS</b>
+            <b class="high">GITHUB</b>
+            <b class="high">PEER PROGRAMMING</b>
+            <b class="high">LEAN DEVELOPMENT</b>
+        </p>
+    </div>
+</section>
+<section id="about">
+    <h2 class="title about_title">
+<!--        <i class="fa fa-cube"></i><br>-->
+        ABOUT ME
+    </h2>
+    <div class="content">
+        <p>I'm <span>born and bred in Barcelona</span> and for the last 10 years I've been <span>commited to web and visual content in one way or another</span>.</p>
+
+        <p>I have <span>a degree in Communication Sciences</span> as well as <span>a media and technological educational background</span>, and over the years I’ve moved from focusing in web and graphic design as well as coding to a more wide array of abilities, knowledge and interests.</p>
+
+        <p>I enjoy having to come up with <span>creative ideas to solving problems through design and code</span>. I spend my time exploring <span>new ways of content creation</span> combining <span>code, visual elements and audio</span>, and I’ve been involved in several <span>art projects by bringing in technological knowledge</span>. I like to <span>learn coding myself while keeping a designer point of view</span>. </p>
+            <br>
+            <br>
+            <span id="personal_links">
+                        <span style="text-transform:uppercase;"><span class="">SEE MY WORK</span>
+                <br>
+                <b class="highdark"><a href="https://portfolio.miquelalvarez.es/" target="_blank" style="color:#e74c3c"><i
+                        class="fa fa-bookmark"></i> PORTFOLIO</a></b>
+                <b class="highdark"><a href="MiquelAlvarezCV.pdf" target="_blank" style="color:#e74c3c"><i
+                        class="fa fa-file-pdf"></i> DOWNLOAD MY CV</a></b>
+                <br>
+                <br>
+                <span style="text-transform:uppercase;"><span class="see">SEE</span>/<span class="hear">HEAR</span> MORE FROM ME...</span>
+                <br>
+<!--               <span class="read">READ</span>/-->
+<!--                <b class="highdark readlink">-->
+<!--                    <a href="http://twitter.com/miquelalvarez"-->
+<!--                       target="_blank"-->
+<!--                       rel="noreferrer"-->
+<!--                       style="color:#55acee">-->
+<!--                        <i class="fab fa-twitter"></i>-->
+<!--                        TWITTER-->
+<!--                    </a>-->
+<!--                </b>-->
+                <b class="highdark hearlink">
+                    <a href="http://https://open.spotify.com/artist/5a1lqCbdCuEXAPUoQjdH9C"
+                       target="_blank"
+                       rel="noreferrer"
+                       style="color:#2ebd59">
+                        <i class="fab fa-spotify"></i>
+                        SPOTIFY
+                    </a>  |
+                    <a
+                        href="https://soundcloud.com/night-in-space"
+                        target="_blank"
+                        rel="noreferrer"
+                        style="color:#ff3300">
+                        <i class="fab fa-soundcloud"></i> SOUNDCLOUD</b></a>
+                            <b class="highdark seelink">
+                                <a href="http://vimeo.com/miquelalvarez"
+                                   target="_blank"
+                                   style="color:#1ab7ea">
+                                    <i class="fab fa-vimeo"></i> VIMEO</a>   |
+                                <a
+                                    href="http://youtube.com/nightinspace"
+                                    target="_blank" style="color:#cd201f">
+                                    <i class="fab fa-youtube"></i> YOUTUBE</a></b>
+                <br>
+                <br>
+                <span style="text-transform:uppercase;">...OR WRITE ME</span>
+                <br>
+                <b class="highdark">
+                    <a href="mailto:hola@miquelalvarez.es"
+                       target="_blank"
+                       style="color:#64B6AC">
+                        <i class="fa fa-envelope"></i> HOLA@MIQUELALVAREZ.ES</a></b>
+                <b class="highdark">
+                    <a href="https://es.linkedin.com/in/miquelalvarez"
+                       target="_blank"
+                       rel="noreferrer"
+                       style="color:#0077b5">
+                        <i class="fab fa-linkedin"></i> LINKEDIN</a></b>
+
+        </p>
+        </b>
+
+        </span>
+
+    </div>
+</section>
+
+<script>
+  // UI BLOCKS
+  var ha_header = document.querySelector("#ha-header");
+
+  // ANCHORS
+
+  var section_pm = document.querySelector(".section_PM");
+  var section_visual_designer = document.querySelector(".section_visual");
+  var section_ui = document.querySelector(".section_UX");
+  var section_frontend = document.querySelector(".section_dev");
+  var section_about = document.querySelector(".section_about");
+
+  // SECTIONS
+  var pm = document.querySelector("#PM");
+  var visual_designer = document.querySelector("#visual_designer");
+  var ui = document.querySelector("#UI");
+  var frontend = document.querySelector("#frontend");
+  var about = document.querySelector("#about");
+</script>
+
+<script async>
+  inView.offset({
+    top: 50
+  })
+
+  inView('#intro_space')
+      .on('enter', function() {
+        ha_header.classList.add('ha-header-hide')
+      })
+      .on('exit', function() {
+        ha_header.classList.remove('ha-header-hide')
+      });
+
+  inView('.pm_title')
+      .on('enter', function() {
+        section_pm.classList.add('section_selected');
+        section_visual_designer.classList.remove('section_selected');
+        section_ui.classList.remove('section_selected');
+        section_frontend.classList.remove('section_selected');
+        section_about.classList.remove('section_selected')
+      });
+
+  inView('.visual_designer_title')
+      .on('enter', function() {
+        section_pm.classList.remove('section_selected');
+        section_visual_designer.classList.add('section_selected');
+        section_ui.classList.remove('section_selected');
+        section_frontend.classList.remove('section_selected');
+        section_about.classList.remove('section_selected')
+      });
+
+  inView('.ui_title')
+      .on('enter', function() {
+        section_pm.classList.remove('section_selected');
+        section_visual_designer.classList.remove('section_selected');
+        section_ui.classList.add('section_selected');
+        section_frontend.classList.remove('section_selected');
+        section_about.classList.remove('section_selected')
+      });
+
+  inView('.frontend_title')
+      .on('enter', function() {
+        section_pm.classList.remove('section_selected');
+        section_visual_designer.classList.remove('section_selected');
+        section_ui.classList.remove('section_selected');
+        section_frontend.classList.add('section_selected');
+        section_about.classList.remove('section_selected')
+      });
+
+  inView('.about_title')
+      .on('enter', function() {
+        section_pm.classList.remove('section_selected');
+        section_visual_designer.classList.remove('section_selected');
+        section_ui.classList.remove('section_selected');
+        section_frontend.classList.remove('section_selected');
+        section_about.classList.add('section_selected')
+      });
+
+  // var read = document.querySelector(".read");
+  var see = document.querySelector(".see");
+  var hear = document.querySelector(".hear");
+
+  // document.querySelector(".readlink").addEventListener("mouseenter", (e) => {
+  //   read.classList.remove("faded");
+  //   see.classList.add("faded");
+  //   hear.classList.add("faded");
+  // });
+
+  document.querySelector(".seelink").addEventListener("mouseenter", (e) => {
+    hear.classList.remove("faded");
+    // read.classList.add("faded");
+    see.classList.remove("faded");
+  });
+  document.querySelector(".hearlink").addEventListener("mouseenter", (e) => {
+    hear.classList.remove("faded");
+    // read.classList.add("faded");
+    see.classList.add("faded");
+  });
+  document.querySelector("#personal_links").addEventListener("mouseenter", (e) => {
+    hear.classList.remove("faded");
+    // read.classList.remove("faded");
+    see.classList.remove("faded");
+  })
+</script>
+
+</body>
+
 </html>

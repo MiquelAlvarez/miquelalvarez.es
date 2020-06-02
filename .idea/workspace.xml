@@ -3,9 +3,90 @@
   <component name="ChangeListManager">
     <list default="true" id="77a8798a-5678-4539-bffa-42bc111bd4ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontawesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiquelAlvarezCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/MiquelAlvarezCV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/fontawesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/25CB92_0_0.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/25CB92_0_0.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/25CB92_0_0.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/25CB92_0_0.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/25CB92_0_0.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/25CB92_0_0.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/25CB92_1_0.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/25CB92_1_0.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/25CB92_1_0.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/25CB92_1_0.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/25CB92_1_0.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/25CB92_1_0.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/25CB92_2_0.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/25CB92_2_0.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/25CB92_2_0.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/25CB92_2_0.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/25CB92_2_0.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/25CB92_2_0.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/animated.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/core.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/larger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/path.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/stacked.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_path.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FiraCode-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/FiraCode-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FiraCode-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/FiraCode-Light.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FiraCode-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/FiraCode-Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FiraCode-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/FiraCode-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FiraCode-Retina.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/FiraCode-Retina.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FiraCode-VF.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/FiraCode-VF.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ProximaNova-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ProximaNova-Bold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ProximaNova-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ProximaNova-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ProximaNova-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ProximaNova-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ProximaNova-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ProximaNova-Light.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ProximaNova-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ProximaNova-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ProximaNova-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ProximaNova-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ProximaNova-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ProximaNova-Regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ProximaNova-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ProximaNova-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ProximaNova-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ProximaNova-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/diagonal.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/diagonal.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/miguel-min.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/miguel-min.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ny01-min.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/ny01-min.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/inview.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/inview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +120,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
